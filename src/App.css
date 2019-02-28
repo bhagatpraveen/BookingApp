@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: blue;
+}
+
+#app-container {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%);
+}
+
+#header-container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+}
+
+#people-icon {
+  width: 30px;
+  margin: 1.75%;
+}
+
+#header-text {
+  margin: auto auto auto 0;
+}
+
+#box-container {
+  border: 1px solid black;
+  padding: 3%;
+}
+
+.box-inner-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.box-button-container {
+  margin-left: auto;
+  display: inline-flex;
+  width: 70px;
+  justify-content: space-between;
+}
+
+.box-image {
+  height: 20px;
+  margin-right: 2%;
+}
+
+.add-button, .subtract-button {
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  width: 20px;
+}
+
+.add-button {
+  background-color: red;
+}
+
+.subtract-button {
+  background-color: blue;
+}
+
+.add-button:hover, .subtract-button:hover {
+  box-shadow: 1px 1px 1px #333;
+}
+
